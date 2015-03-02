@@ -1,0 +1,6 @@
+<% @quotes.each do |quote| %>
+<%= quote.content %> - <%= quote.author %>
+<%= link_to "View Quote", quote_path(quote) %>
+
+<hr>
+<% end %>

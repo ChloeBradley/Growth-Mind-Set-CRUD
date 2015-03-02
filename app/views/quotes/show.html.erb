@@ -1,0 +1,6 @@
+<%= @quote.content %>
+<br>
+<%= @quote.author %>
+
+<%= link_to "Edit", edit_quote_path %>
+<%= link_to "Delete Quote", quote_path(@quote), method: :delete %>
